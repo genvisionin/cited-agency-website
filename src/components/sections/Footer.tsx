@@ -16,7 +16,7 @@ export function Footer() {
         <div className="text-center md:text-left space-y-4">
           <Link href="/" className="inline-block">
             <span className="font-heading font-bold text-3xl tracking-tight text-white">
-              Cited
+              Recco
             </span>
             <span className="text-secondary text-3xl font-bold">.</span>
           </Link>
@@ -24,7 +24,7 @@ export function Footer() {
             AI Visibility Agency for Businesses
           </p>
           <p className="hover:text-white transition-colors">
-            <a href="mailto:hello@cited.agency">hello@cited.agency</a>
+            <a href="mailto:hello@recco.online">hello@recco.online</a>
           </p>
           <p className="text-white/60 text-sm pt-2">
             Global Hubs: Bangalore, India &bull; Singapore
@@ -46,7 +46,7 @@ export function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-16 pt-8 border-t border-white/10 text-center md:text-left text-sm">
-        <p>&copy; 2026 Cited. All rights reserved.</p>
+        <p>&copy; 2026 Recco. All rights reserved.</p>
       </div>
     </footer>
   );

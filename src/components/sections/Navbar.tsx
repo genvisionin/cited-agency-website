@@ -34,7 +34,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-6 md:px-8 flex items-center justify-between">
         <Link href="/" className="flex items-baseline">
           <span className="font-heading font-bold text-3xl tracking-tight text-primary">
-            Cited
+            Recco
           </span>
           <span className="text-secondary text-3xl font-bold">.</span>
         </Link>

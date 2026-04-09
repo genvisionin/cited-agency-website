@@ -17,13 +17,13 @@ export async function POST(request: Request) {
     // Send the email using Resend
     const { data, error } = await resend.emails.send({
       // For free tier without a verified domain, use standard onboarding address
-      from: 'Cited Leads <onboarding@resend.dev>',
+      from: 'Recco Leads <onboarding@resend.dev>',
       // The email address where you want to receive these leads:
       to: process.env.NOTIFICATION_EMAIL as string,
       subject: `🔥 New AI Visibility Audit Request from ${name}`,
       html: `
         <h2>New Lead!</h2>
-        <p>You have received a new request for an AI Visibility Audit from the Cited website.</p>
+        <p>You have received a new request for an AI Visibility Audit from the Recco website.</p>
         <hr />
         <h3>Details:</h3>
         <ul>
